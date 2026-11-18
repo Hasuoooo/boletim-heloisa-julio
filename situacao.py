@@ -6,4 +6,8 @@ def situacao(m):
     Ex.: situacao(60) -> "Aprovado"
     """
     # complete aqui: troque o return "?" pelo if
-    return "?"
+    if m >=60:
+        print("aprovado")
+    else:
+        print("reprovado")
+print(situacao(60))
